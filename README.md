@@ -37,6 +37,7 @@
 ---
 
 ## 📁 项目结构
+```
 LLM-Research-Assistant/
 ├── 科创项目/
 │   ├── **核心文件**自行搭建对话器.py # 主程序入口
@@ -46,3 +47,4 @@ LLM-Research-Assistant/
 ├── study/                              # 学习笔记与练习代码
 ├── .gitignore
 └── README.md
+```
