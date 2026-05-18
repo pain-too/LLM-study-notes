@@ -33,3 +33,6 @@ temp/
 chroma_db/
 data/
 logs/
+
+echo ".idea/" >> .gitignore
+echo ".env" >> .gitignore
