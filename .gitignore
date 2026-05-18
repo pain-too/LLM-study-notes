@@ -1,30 +1,35 @@
-# ===================== 项目专属过滤规则 =====================
-# 密钥/环境变量文件（含你的 deepseek api 密钥，绝对不上传）
-*.env
-.env
-qwen_key.env
-.env.example.bak
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trash
+*.swp
+*.swo
 
-# 对话记忆文件（运行时生成的缓存数据）
-chat_history/
-RAG/chat_history/
-Agent/chat_history/
+# IDE
+.idea/
+.vscode/
 
-# 向量数据库文件（RAG 项目的运行时数据）
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# 日志与临时文件
+*.log
+tmp/
+temp/
+
+# RAG 向量库
 chroma_db/
-*.chroma
-*.db
-
-# 学习/实验代码（不上传）
-study/
-RAG/study/
-Agent/study/
-*study/
-
-# 科创项目的中间/结果文件（只传处理脚本，不上传原始数据/结果）
-*.xlsx
-*.xls
-*.csv
-*.txt
-generated_code/
-output/
+data/
+logs/
