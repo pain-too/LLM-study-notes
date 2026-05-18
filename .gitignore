@@ -1,35 +1,3 @@
-
-# ===================== 基础过滤规则 =====================
-# Python 编译缓存（自动生成，无需上传）
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# 虚拟环境（本地开发用，不上传）
-.venv/
-venv/
-ENV/
-env.local/
-env/
-
 # ===================== 项目专属过滤规则 =====================
 # 密钥/环境变量文件（含你的 deepseek api 密钥，绝对不上传）
 *.env
@@ -39,64 +7,24 @@ qwen_key.env
 
 # 对话记忆文件（运行时生成的缓存数据）
 chat_history/
+RAG/chat_history/
+Agent/chat_history/
+
 # 向量数据库文件（RAG 项目的运行时数据）
 chroma_db/
 *.chroma
 *.db
 
+# 学习/实验代码（不上传）
+study/
+RAG/study/
+Agent/study/
+*study/
+
 # 科创项目的中间/结果文件（只传处理脚本，不上传原始数据/结果）
-# 如果你有 Excel/CSV 数据文件，按需添加以下规则
 *.xlsx
 *.xls
 *.csv
 *.txt
-# 生成的代码文件（如果有单独的生成文件，可添加）
 generated_code/
 output/
-
-# ===================== IDE/编辑器配置 =====================
-# PyCharm/IntelliJ
-.idea/
-*.iml
-*.iws
-*.ipr
-out/
-
-# VS Code
-.vscode/
-*.code-workspace
-.history/
-
-# Sublime Text
-*.sublime-project
-*.sublime-workspace
-
-# Vim
-*.swp
-*.swo
-.*.sw?
-unite/
-tags/
-
-# ===================== 系统/临时文件 =====================
-# Mac 系统隐藏文件
-.DS_Store
-.AppleDouble
-.LSOverride
-# Windows 系统文件
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-# 日志文件
-*.log
-logs/
-# 压缩包
-*.zip
-*.tar.gz
-*.rar
