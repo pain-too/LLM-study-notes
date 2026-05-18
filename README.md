@@ -1,4 +1,4 @@
-# LLM-Research-Assistant
+# LLM-Research-Assistant#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手LLM-研究助手#LLM-研究助手
 大模型科研数据处理助手
 
 一个面向植物香气注意力实验场景的 LLM 应用，能根据实验需求生成可直接运行的数据分析脚本，解决科研数据处理与统计分析问题。
@@ -39,12 +39,7 @@
 ## 📁 项目结构
 ```
 LLM-Research-Assistant/
-├── 科创项目/
-│   ├── **核心文件**自行搭建对话器.py # 主程序入口
-│   ├── generated_result/               # LLM 生成的代码、提示词、结果图
-│   ├── chat_history/                   # 本地对话历史（不上传）
-│   └── __pycache__/                    # Python 缓存（不上传）
-├── study/                              # 学习笔记与练习代码
-├── .gitignore
+├── core_langchain_chat.py        # 主文件
+├── requirements.txt
 └── README.md
 ```
