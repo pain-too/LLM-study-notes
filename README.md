@@ -39,7 +39,30 @@
 ```
 LLM-Research-Assistant/
 ├── core_langchain_chat.py     # 主程序文件
+│ 
+├── generated_results/         # 模型生成的部分代码 + 科研数据处理结果
+│ 
 ├── requirements.txt           # 项目依赖清单
 ├── README.md                  # 项目说明文档
-└── .gitignore                 # Git 忽略规则配置文件
+└── .gitignore              
 ```
+
+## 🚀 快速开始
+克隆仓库，按照说明操作即可在本地运行垂直领域数据处理对话器。
+### 1. 克隆项目与安装依赖
+
+```bash
+# 克隆仓库
+git clone https://github.com/pain-too/LLM-Research-Assistant
+cd LLM-Research-Assistant
+
+# 安装依赖
+pip install -r requirements.txt
+```
+### 2. 在项目根目录下创建 .env 文件，填入你的 DEEPSEEK API Key：
+```bash
+DEEPSEEK_API_KEY
+```
+### 3. 根据你的需求修改系统提示词
+
+### 4. 运行core_langchain_chat.py，输入具体元数据，即可得到代码

@@ -22,7 +22,11 @@ __pycache__/
 venv/
 env/
 .venv/
-.env/
+
+# 🔥 关键：密钥文件
+.env
+.env.*
+!.env.example
 
 # 日志与临时文件
 *.log
@@ -32,7 +36,5 @@ temp/
 # RAG 向量库
 chroma_db/
 data/
-logs/
-
-echo ".idea/" >> .gitignore
-echo ".env" >> .gitignore
+logs/DS-408-RAG-Agent/
+DS-408-RAG-Agent/
