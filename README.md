@@ -66,3 +66,7 @@ DEEPSEEK_API_KEY
 ### 3. 根据你的需求修改系统提示词
 
 ### 4. 运行core_langchain_chat.py，输入具体元数据，即可得到代码
+
+
+## ❀ 温馨提示
+若要查看对话器的完整构建过程，请移步至https://github.com/pain-too/study_record
